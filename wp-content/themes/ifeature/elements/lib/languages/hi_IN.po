@@ -1,0 +1,133 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Elements Free\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-03-19 16:22:25 UTC\n"
+"PO-Revision-Date: 2013-11-12 16:42+0530\n"
+"Last-Translator: Surya <surya@cyberchimps.com>\n"
+"Language-Team: Hindi, India\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+
+#: ../../init.php
+msgid "Boxes Lite"
+msgstr "बक्से लाइट"
+
+#: ../../init.php
+msgid "Portfolio Lite"
+msgstr "Not Ranked पोर्टफोलियो लाइट"
+
+#: ../../init.php
+msgid "Post Page"
+msgstr "पोस्ट पेज"
+
+#: ../../init.php
+msgid "Slider Lite"
+msgstr "स्लाइडर लाइट"
+
+#: ../../init.php
+msgid "Page"
+msgstr "पृष्ठ"
+
+#: ../../portfolio-lite.php
+msgid "First Portfolio Image"
+msgstr "पोर्टफोलियो लाइट"
+
+#: ../../portfolio-lite.php
+msgid "First Portfolio Image Caption"
+msgstr "पहली पोर्टफोलियो छवि कैप्शन"
+
+#: ../../portfolio-lite.php
+msgid "Image 1"
+msgstr "छवि 1"
+
+#: ../../portfolio-lite.php
+msgid "First Porfolio Link"
+msgstr "पोर्टफोलियो लाइट"
+
+#: ../../portfolio-lite.php
+msgid "Link URL"
+msgstr "लिंक यूआरएल"
+
+#: ../../portfolio-lite.php
+msgid "Second Portfolio Image"
+msgstr "पोर्टफोलियो लाइट"
+
+#: ../../portfolio-lite.php
+msgid "Second Portfolio Image Caption"
+msgstr "दूसरा पोर्टफोलियो छवि कैप्शन"
+
+#: ../../portfolio-lite.php
+msgid "Image 2"
+msgstr "छवि 2"
+
+#: ../../portfolio-lite.php
+msgid "Second Porfolio Link"
+msgstr "पोर्टफोलियो लाइट"
+
+#: ../../portfolio-lite.php
+msgid "Third Portfolio Image"
+msgstr "पोर्टफोलियो लाइट"
+
+#: ../../portfolio-lite.php
+msgid "Third Portfolio Image Caption"
+msgstr "तीसरे पोर्टफोलियो छवि कैप्शन"
+
+#: ../../portfolio-lite.php
+msgid "Image 3"
+msgstr "छवि 3"
+
+#: ../../portfolio-lite.php
+msgid "Third Porfolio Link"
+msgstr "पोर्टफोलियो लाइट"
+
+#: ../../portfolio-lite.php
+msgid "Fourth Portfolio Image"
+msgstr "पोर्टफोलियो लाइट"
+
+#: ../../portfolio-lite.php
+msgid "Fourth Portfolio Image Caption"
+msgstr "चौथे पोर्टफोलियो छवि कैप्शन"
+
+#: ../../portfolio-lite.php
+msgid "Image 4"
+msgstr "छवि 4"
+
+#: ../../portfolio-lite.php
+msgid "Fourth Porfolio Link"
+msgstr "पोर्टफोलियो लाइट"
+
+#: ../../portfolio-lite.php
+msgid "Portfolio Lite Options"
+msgstr "पोर्टफोलियो लाइट"
+
+#: ../../slider-lite.php
+msgid "Slide One Image"
+msgstr "एक छवि स्लाइड"
+
+#: ../../slider-lite.php
+msgid "Slide One Link"
+msgstr "स्लाइडर लाइट"
+
+#: ../../slider-lite.php
+msgid "Slide Two Image"
+msgstr "दो छवि स्लाइड"
+
+#: ../../slider-lite.php
+msgid "Slide Two Link"
+msgstr "स्लाइडर लाइट"
+
+#: ../../slider-lite.php
+msgid "Slide Three Image"
+msgstr "तीन छवि स्लाइड"
+
+#: ../../slider-lite.php
+msgid "Slide Three Link"
+msgstr "स्लाइडर लाइट"
+
+#: ../../slider-lite.php
+msgid "Slider Lite Options"
+msgstr "स्लाइडर लाइट"

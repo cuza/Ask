@@ -1,0 +1,134 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Elements Free\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-03-19 16:22:25 UTC\n"
+"PO-Revision-Date: 2013-11-12 16:43+0530\n"
+"Last-Translator: Surya <surya@cyberchimps.com>\n"
+"Language-Team: Polish, Poland\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+
+#: ../../init.php
+msgid "Boxes Lite"
+msgstr "Skrzynki Lite"
+
+#: ../../init.php
+msgid "Portfolio Lite"
+msgstr "Portfolio Lite"
+
+#: ../../init.php
+msgid "Post Page"
+msgstr "Po stronie"
+
+#: ../../init.php
+msgid "Slider Lite"
+msgstr "Suwak Lite"
+
+#: ../../init.php
+msgid "Page"
+msgstr "Strona"
+
+#: ../../portfolio-lite.php
+msgid "First Portfolio Image"
+msgstr "Portfolio Lite"
+
+#: ../../portfolio-lite.php
+msgid "First Portfolio Image Caption"
+msgstr "Pierwszy podpis obrazu Portfolio"
+
+#: ../../portfolio-lite.php
+msgid "Image 1"
+msgstr "Obrazu 1"
+
+#: ../../portfolio-lite.php
+msgid "First Porfolio Link"
+msgstr "Portfolio Lite"
+
+#: ../../portfolio-lite.php
+msgid "Link URL"
+msgstr "Ogniwo URL"
+
+#: ../../portfolio-lite.php
+msgid "Second Portfolio Image"
+msgstr "Portfolio Lite"
+
+#: ../../portfolio-lite.php
+msgid "Second Portfolio Image Caption"
+msgstr "Drugie Portfolio podpis obrazu"
+
+#: ../../portfolio-lite.php
+msgid "Image 2"
+msgstr "Zdjęcie 2"
+
+#: ../../portfolio-lite.php
+msgid "Second Porfolio Link"
+msgstr "Portfolio Lite"
+
+#: ../../portfolio-lite.php
+msgid "Third Portfolio Image"
+msgstr "Portfolio Lite"
+
+#: ../../portfolio-lite.php
+msgid "Third Portfolio Image Caption"
+msgstr "Trzeci podpis obrazu Portfolio"
+
+#: ../../portfolio-lite.php
+msgid "Image 3"
+msgstr "Zdjęcie 3"
+
+#: ../../portfolio-lite.php
+msgid "Third Porfolio Link"
+msgstr "Portfolio Lite"
+
+#: ../../portfolio-lite.php
+msgid "Fourth Portfolio Image"
+msgstr "Portfolio Lite"
+
+#: ../../portfolio-lite.php
+msgid "Fourth Portfolio Image Caption"
+msgstr "Czwarty podpis obrazu Portfolio"
+
+#: ../../portfolio-lite.php
+msgid "Image 4"
+msgstr "Obraz 4"
+
+#: ../../portfolio-lite.php
+msgid "Fourth Porfolio Link"
+msgstr "Portfolio Lite"
+
+#: ../../portfolio-lite.php
+msgid "Portfolio Lite Options"
+msgstr "Portfolio Lite"
+
+#: ../../slider-lite.php
+msgid "Slide One Image"
+msgstr "Jeden obraz slajdu"
+
+#: ../../slider-lite.php
+msgid "Slide One Link"
+msgstr "Suwak Lite"
+
+#: ../../slider-lite.php
+msgid "Slide Two Image"
+msgstr "Przesuń dwie obrazu"
+
+#: ../../slider-lite.php
+msgid "Slide Two Link"
+msgstr "Suwak Lite"
+
+#: ../../slider-lite.php
+msgid "Slide Three Image"
+msgstr "Slajd 3 obrazu"
+
+#: ../../slider-lite.php
+msgid "Slide Three Link"
+msgstr "Suwak Lite"
+
+#: ../../slider-lite.php
+msgid "Slider Lite Options"
+msgstr "Suwak Lite"

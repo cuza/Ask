@@ -1,0 +1,129 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Elements Free\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-03-19 16:22:25 UTC\n"
+"PO-Revision-Date: 2013-11-12 16:42+0530\n"
+"Last-Translator: Surya <surya@cyberchimps.com>\n"
+"Language-Team: Indonesian, Indonesia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../init.php
+msgid "Boxes Lite"
+msgstr "Kotak Lite"
+
+#: ../../init.php
+msgid "Portfolio Lite"
+msgstr "Portofolio Lite"
+
+#: ../../init.php
+msgid "Post Page"
+msgstr "Posting Halaman"
+
+#: ../../init.php
+msgid "Slider Lite"
+msgstr "Slider Lite"
+
+#: ../../init.php
+msgid "Page"
+msgstr "Dance"
+
+#: ../../portfolio-lite.php
+msgid "First Portfolio Image"
+msgstr "Portofolio Lite"
+
+#: ../../portfolio-lite.php
+msgid "First Portfolio Image Caption"
+msgstr "Portofolio Pertama Gambar Caption"
+
+#: ../../portfolio-lite.php
+msgid "Image 1"
+msgstr "Gambar 1"
+
+#: ../../portfolio-lite.php
+msgid "First Porfolio Link"
+msgstr "Portofolio Lite"
+
+#: ../../portfolio-lite.php
+msgid "Link URL"
+msgstr "URL Tautan"
+
+#: ../../portfolio-lite.php
+msgid "Second Portfolio Image"
+msgstr "Portofolio Lite"
+
+#: ../../portfolio-lite.php
+msgid "Second Portfolio Image Caption"
+msgstr "Portofolio kedua Gambar Caption"
+
+#: ../../portfolio-lite.php
+msgid "Image 2"
+msgstr "Gambar 2"
+
+#: ../../portfolio-lite.php
+msgid "Second Porfolio Link"
+msgstr "Portofolio Lite"
+
+#: ../../portfolio-lite.php
+msgid "Third Portfolio Image"
+msgstr "Portofolio Lite"
+
+#: ../../portfolio-lite.php
+msgid "Third Portfolio Image Caption"
+msgstr "Portofolio Ketiga Gambar Caption"
+
+#: ../../portfolio-lite.php
+msgid "Image 3"
+msgstr "Gambar 3"
+
+#: ../../portfolio-lite.php
+msgid "Third Porfolio Link"
+msgstr "Portofolio Lite"
+
+#: ../../portfolio-lite.php
+msgid "Fourth Portfolio Image"
+msgstr "Portofolio Lite"
+
+#: ../../portfolio-lite.php
+msgid "Fourth Portfolio Image Caption"
+msgstr "Portofolio Keempat Gambar Caption"
+
+#: ../../portfolio-lite.php
+msgid "Image 4"
+msgstr "Gambar 4"
+
+#: ../../portfolio-lite.php
+msgid "Fourth Porfolio Link"
+msgstr "Portofolio Lite"
+
+#: ../../portfolio-lite.php
+msgid "Portfolio Lite Options"
+msgstr "Portofolio Lite"
+
+#: ../../slider-lite.php
+msgid "Slide One Image"
+msgstr "Satu slide gambar"
+
+msgid "Slide One Link"
+msgstr "Slider Lite"
+
+#: ../../slider-lite.php
+msgid "Slide Two Image"
+msgstr "Slide gambar dua"
+
+msgid "Slide Two Link"
+msgstr "Slider Lite"
+
+#: ../../slider-lite.php
+msgid "Slide Three Image"
+msgstr "Slide gambar tiga"
+
+msgid "Slide Three Link"
+msgstr "Slider Lite"
+
+msgid "Slider Lite Options"
+msgstr "Slider Lite"

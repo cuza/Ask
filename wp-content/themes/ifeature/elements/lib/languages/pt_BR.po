@@ -1,0 +1,133 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Elements Free\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-03-19 16:22:25 UTC\n"
+"PO-Revision-Date: 2013-11-12 16:42+0530\n"
+"Last-Translator: Surya <surya@cyberchimps.com>\n"
+"Language-Team: Portuguese, Brazil\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: ../../init.php
+msgid "Boxes Lite"
+msgstr "Caixas Lite"
+
+#: ../../init.php
+msgid "Portfolio Lite"
+msgstr "Portfólio Lite"
+
+#: ../../init.php
+msgid "Post Page"
+msgstr "Publicar Página"
+
+#: ../../init.php
+msgid "Slider Lite"
+msgstr "Controle deslizante Lite"
+
+#: ../../init.php
+msgid "Page"
+msgstr "Space"
+
+#: ../../portfolio-lite.php
+msgid "First Portfolio Image"
+msgstr "Portfólio Lite"
+
+#: ../../portfolio-lite.php
+msgid "First Portfolio Image Caption"
+msgstr "Legenda da imagem primeira portfólio"
+
+#: ../../portfolio-lite.php
+msgid "Image 1"
+msgstr "Imagem 1"
+
+#: ../../portfolio-lite.php
+msgid "First Porfolio Link"
+msgstr "Portfólio Lite"
+
+#: ../../portfolio-lite.php
+msgid "Link URL"
+msgstr "URL do link"
+
+#: ../../portfolio-lite.php
+msgid "Second Portfolio Image"
+msgstr "Portfólio Lite"
+
+#: ../../portfolio-lite.php
+msgid "Second Portfolio Image Caption"
+msgstr "Segunda portfólio legenda da imagem"
+
+#: ../../portfolio-lite.php
+msgid "Image 2"
+msgstr "Imagem 2"
+
+#: ../../portfolio-lite.php
+msgid "Second Porfolio Link"
+msgstr "Portfólio Lite"
+
+#: ../../portfolio-lite.php
+msgid "Third Portfolio Image"
+msgstr "Portfólio Lite"
+
+#: ../../portfolio-lite.php
+msgid "Third Portfolio Image Caption"
+msgstr "Legenda da Imagem terceiro Portfolio"
+
+#: ../../portfolio-lite.php
+msgid "Image 3"
+msgstr "Imagem 3"
+
+#: ../../portfolio-lite.php
+msgid "Third Porfolio Link"
+msgstr "Portfólio Lite"
+
+#: ../../portfolio-lite.php
+msgid "Fourth Portfolio Image"
+msgstr "Portfólio Lite"
+
+#: ../../portfolio-lite.php
+msgid "Fourth Portfolio Image Caption"
+msgstr "Legenda da imagem quarta carteira"
+
+#: ../../portfolio-lite.php
+msgid "Image 4"
+msgstr "Imagem 4"
+
+#: ../../portfolio-lite.php
+msgid "Fourth Porfolio Link"
+msgstr "Portfólio Lite"
+
+#: ../../portfolio-lite.php
+msgid "Portfolio Lite Options"
+msgstr "Portfólio Lite"
+
+#: ../../slider-lite.php
+msgid "Slide One Image"
+msgstr "Deslize Uma Imagem"
+
+#: ../../slider-lite.php
+msgid "Slide One Link"
+msgstr "Controle deslizante Lite"
+
+#: ../../slider-lite.php
+msgid "Slide Two Image"
+msgstr "Imagem slide dois"
+
+#: ../../slider-lite.php
+msgid "Slide Two Link"
+msgstr "Controle deslizante Lite"
+
+#: ../../slider-lite.php
+msgid "Slide Three Image"
+msgstr "Deslize Três Imagem"
+
+#: ../../slider-lite.php
+msgid "Slide Three Link"
+msgstr "Controle deslizante Lite"
+
+#: ../../slider-lite.php
+msgid "Slider Lite Options"
+msgstr "Controle deslizante Lite"
