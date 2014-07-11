@@ -2,9 +2,9 @@
 /**
  *  Plugin Name: DW Question Answer
  *  Description: Un plugin de Wordpress para construir un sitio de preguntas y respuestas con integracion LDAP
- *  Author: Dave Cuza & Oscar Ojeda
- *  Author URI: http://www.designwall.com
- *  Version: 1.3.0
+ *  Author: Dave Cuza
+ *  Author URI: http://www.facebook.com/dave.cuza/
+ *  Version: 1.0
  *  Text Domain: dwqa
  */
 

@@ -1,11 +1,10 @@
 <?php
 /*
-Plugin Name: Simple LDAP Login
-Plugin URI: http://clifgriffin.com/simple-ldap-login/
-Description:  Authenticate WordPress against LDAP.
-Version: 1.5.5
-Author: Clif Griffin Development Inc.
-Author URI: http://cgd.io
+Plugin Name: LDAP Login
+Description:  Authenticar WordPress contra LDAP.
+Version: 1.0
+Author: Oscar Ojeda
+Author URI: http://www.facebook.com/oscar.ojedaperez/
 */
 
 class SimpleLDAPLogin {
@@ -127,7 +126,7 @@ class SimpleLDAPLogin {
 	}
 
 	function menu () {
-		add_options_page("Simple LDAP Login", "Simple LDAP Login", 'manage_options', "simple-ldap-login", array($this, 'admin_page') );
+		add_options_page("LDAP Login", "LDAP Login", 'manage_options', "simple-ldap-login", array($this, 'admin_page') );
 	}
 
 	function admin_page () {
@@ -189,12 +188,12 @@ class SimpleLDAPLogin {
 
 	function saved_admin_notice(){
 	    echo '<div class="updated">
-	       <p>Simple LDAP Login settings have been saved.</p>
+	       <p>LDAP Login las preferencias han sido guardadas.</p>
 	    </div>';
 
 	    if( ! str_true($this->get_setting('enabled')) ) {
 			echo '<div class="error">
-				<p>Simple LDAP Login is disabled.</p>
+				<p>LDAP Login está desactivado.</p>
 			</div>';
 	    }
 	}
@@ -237,7 +236,7 @@ class SimpleLDAPLogin {
 				if ( ! $user || ( strtolower($user->user_login) !== strtolower($username) ) )  {
 					if( ! str_true($this->get_setting('create_users')) ) {
 						do_action( 'wp_login_failed', $username );
-						return new WP_Error('invalid_username', __('<strong>Simple LDAP Login Error</strong>: LDAP credentials are correct, but there is no matching WordPress user and user creation is not enabled.'));
+						return new WP_Error('invalid_username', __('<strong>LDAP Login Error</strong>: Tus credenciales de Directorio son correctas, pero no existe usuario de Ask y la creación de usuarios está desactivada.'));
 					}
 
 					$new_user = wp_insert_user( $this->get_user_data( $username, $this->get_setting('directory') ) );
@@ -253,18 +252,18 @@ class SimpleLDAPLogin {
 					else
 					{
 						do_action( 'wp_login_failed', $username );
-						return new WP_Error("{$this->prefix}login_error", __('<strong>Simple LDAP Login Error</strong>: LDAP credentials are correct and user creation is allowed but an error occurred creating the user in WordPress. Actual error: '.$new_user->get_error_message() ));
+						return new WP_Error("{$this->prefix}login_error", __('<strong>LDAP Login Error</strong>:  Tus credenciales de Directorio son correctas y la creación de usuarios está activada pero un error ocurrió mientras se creaba el usuario en Ask. Error: '.$new_user->get_error_message() ));
 					}
 
 				} else {
 					return new WP_User($user->ID);
 				}
 			} else {
-				return new WP_Error("{$this->prefix}login_error", __('<strong>Simple LDAP Login Error</strong>: Your LDAP credentials are correct, but you are not in an authorized LDAP group.'));
+				return new WP_Error("{$this->prefix}login_error", __('<strong>LDAP Login Error</strong>: Tus credenciales de Directorio son correctas, pero no estas en uno de los grupos autorizados a iniciar sesión.'));
 			}
 
 		} elseif ( str_true($this->get_setting('high_security')) ) {
-			return new WP_Error('invalid_username', __('<strong>Simple LDAP Login</strong>: Simple LDAP Login could not authenticate your credentials. The security settings do not permit trying the WordPress user database as a fallback.'));
+			return new WP_Error('invalid_username', __('<strong>LDAP Login</strong>: LDAP Login no pudo autentificarse usando esas credenciales. Las políticas de seguridad no permiten el acceso no autorizado por el controlador de dominio.'));
 		}
 
 		do_action($this->prefix . 'auth_failure');

@@ -10,38 +10,38 @@ if( isset( $_GET[ 'tab' ] ) ) {
 <div class="wrap">
 
     <div id="icon-themes" class="icon32"></div>
-    <h2>Simple LDAP Login Settings</h2>
+    <h2>LDAP Login Configuración</h2>
 
     <h2 class="nav-tab-wrapper">
-        <a href="<?php echo add_query_arg( array('tab' => 'simple'), $_SERVER['REQUEST_URI'] ); ?>" class="nav-tab <?php echo $active_tab == 'simple' ? 'nav-tab-active' : ''; ?>">Simple</a>
-        <a href="<?php echo add_query_arg( array('tab' => 'advanced'), $_SERVER['REQUEST_URI'] ); ?>" class="nav-tab <?php echo $active_tab == 'advanced' ? 'nav-tab-active' : ''; ?>">Advanced</a>
-        <a href="<?php echo add_query_arg( array('tab' => 'help'), $_SERVER['REQUEST_URI'] ); ?>" class="nav-tab <?php echo $active_tab == 'help' ? 'nav-tab-active' : ''; ?>">Help</a>
+        <a href="<?php echo add_query_arg( array('tab' => 'simple'), $_SERVER['REQUEST_URI'] ); ?>" class="nav-tab <?php echo $active_tab == 'simple' ? 'nav-tab-active' : ''; ?>">Básico</a>
+        <a href="<?php echo add_query_arg( array('tab' => 'advanced'), $_SERVER['REQUEST_URI'] ); ?>" class="nav-tab <?php echo $active_tab == 'advanced' ? 'nav-tab-active' : ''; ?>">Avanzado</a>
+        <a href="<?php echo add_query_arg( array('tab' => 'help'), $_SERVER['REQUEST_URI'] ); ?>" class="nav-tab <?php echo $active_tab == 'help' ? 'nav-tab-active' : ''; ?>">Ayuda</a>
     </h2>
 
     <form method="post" action="<?php echo str_replace( '%7E', '~', $_SERVER['REQUEST_URI']); ?>">
     	<?php wp_nonce_field( 'save_sll_settings','save_the_sll' ); ?>
 
     	<?php if( $active_tab == "simple" ): ?>
-    	<h3>Required</h3>
-    	<p>These are the most basic settings you must configure. Without these, you won't be able to use Simple LDAP Login.</p>
+    	<h3>Obligatorios</h3>
+    	<p>Estos son los parámetros básicos de conexión, si no llenas uno de ellos no podras usar LDAP Login.</p>
     	<table class="form-table">
 			<tbody>
 				<tr>
-					<th scope="row" valign="top">Enable LDAP Authentication</th>
+					<th scope="row" valign="top">Activar autentificación LDAP</th>
 					<td>
 						<input type="hidden" name="<?php echo $this->get_field_name('enabled'); ?>" value="false" />
-						<label><input type="checkbox" name="<?php echo $this->get_field_name('enabled'); ?>" value="true" <?php if( str_true($this->get_setting('enabled')) ) echo "checked"; ?> /> Enable LDAP login authentication for WordPress. (this one is kind of important)</label><br/>
+						<label><input type="checkbox" name="<?php echo $this->get_field_name('enabled'); ?>" value="true" <?php if( str_true($this->get_setting('enabled')) ) echo "checked"; ?> /> Activar autentificación LDAP para WordPress.</label><br/>
 					</td>
 	    		<tr>
 	    		<tr>
-					<th scope="row" valign="top">Account Suffix</th>
+					<th scope="row" valign="top">Sufijo de las cuentas</th>
 					<td>
 						<input type="text" name="<?php echo $this->get_field_name('account_suffix'); ?>" value="<?php echo $SimpleLDAPLogin->get_setting('account_suffix'); ?>" /><br/>
-						Often the suffix of your e-mail address. Example: @gmail.com
+						Por lo general es el sufijo de tu dirección email. Ejemplo: @umcc.cu
 					</td>
 				</tr>
 				<tr>
-					<th scope="row" valign="top">Base DN</th>
+					<th scope="row" valign="top">DN Base</th>
 					<td>
 						<input type="text" name="<?php echo $this->get_field_name('base_dn'); ?>" value="<?php echo $SimpleLDAPLogin->get_setting('base_dn'); ?>" />
 						<br/>
@@ -49,10 +49,10 @@ if( isset( $_GET[ 'tab' ] ) ) {
 					</td>
 				</tr>
 				<tr>
-					<th scope="row" valign="top">Domain Controller(s)</th>
+					<th scope="row" valign="top">Controlador(es) de Dominio</th>
 					<td>
 						<input type="text" name="<?php echo $this->get_field_name('domain_controllers', 'array'); ?>" value="<?php echo join(';', (array)$SimpleLDAPLogin->get_setting('domain_controllers')); ?>" />
-						<br/>Separate with semi-colons.
+						<br/>Separados por punto y coma(;).
 					</td>
 				</tr>
 				<tr>
@@ -64,10 +64,10 @@ if( isset( $_GET[ 'tab' ] ) ) {
 				</tr>
 			</tbody>
     	</table>
-    	<p><input class="button-primary" type="submit" value="Save Settings" /></p>
+    	<p><input class="button-primary" type="submit" value="Guardar Preferencias" /></p>
     	<?php elseif ( $active_tab == "advanced" ): ?>
     	<h3>Typical</h3>
-		<p>These settings give you finer control over how logins work.</p>
+		<p>Estas preferencias controlan como funciona la autentificacion.</p>
     	<table class="form-table" style="margin-bottom: 20px;">
 			<tbody>
 				<tr>
@@ -82,7 +82,7 @@ if( isset( $_GET[ 'tab' ] ) ) {
 					<th scope="row" valign="top">LDAP Exclusive</th>
 					<td>
 						<input type="hidden" name="<?php echo $this->get_field_name('high_security'); ?>" value="false" />
-						<label><input type="checkbox" name="<?php echo $this->get_field_name('high_security'); ?>" value="true" <?php if( str_true($this->get_setting('high_security')) ) echo "checked"; ?> /> Force all logins to authenticate against LDAP. Do NOT fallback to default authentication for existing users.<br/>Formerly known as high security mode.</label><br/>
+						<label><input type="checkbox" name="<?php echo $this->get_field_name('high_security'); ?>" value="true" <?php if( str_true($this->get_setting('high_security')) ) echo "checked"; ?> /> Forzar todos los logins autentificar contra LDAP. Do NOT fallback to default authentication for existing users.<br/>Formerly known as high security mode.</label><br/>
 					</td>
 				</tr>
 				<tr>
@@ -137,7 +137,7 @@ if( isset( $_GET[ 'tab' ] ) ) {
 				</tr>
 			</tbody>
     	</table>
-    	<p><input class="button-primary" type="submit" value="Save Settings" /></p>
+    	<p><input class="button-primary" type="submit" value="Guardar Preferencias" /></p>
     	<?php else: ?>
 		<h3>Help</h3>
 		<p>Here's a brief primer on how to effectively use and test Simple LDAP Login.</p>
